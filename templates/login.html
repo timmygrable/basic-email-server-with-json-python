@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <link href="{{url_for('static',filename='login.css')}}" rel=stylesheet type="text/css">
+    <title> Login Page </title>
+  </head>
+  <body>
+    <br>
+    <h2 class='headd'> You've Reached SurfMail's Login Page! </h2>
+    <br>
+    <div class='box'>
+      <br>
+      <h2 class='headd'> Welcome to SurfMail! </h2>
+      <h4 class='headd'> Please Enter Your Login Informaton Below! </h4>
+      <br>
+      <form id='form' method='post' action='/login'>
+	<p class='one'> UserID: <input type='text' name='userid' placeholder='Enter Username...' class='in'/></p>
+	<p class='one'> Password: <input type='password' name='password' placeholder='Enter Password...' class='in'/></p>
+	<br>
+	<input type='submit' name='submit' value='submit' />
+	<br>
+	<br>
+	<br>
+      </form>
+      <form id='form' method='post' action='/create'>
+	<input type='submit' value='Create Account' action='/create'/>
+      </form>
+    </div>
+  </body>
+  </html>

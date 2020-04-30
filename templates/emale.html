@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="{{url_for('static',filename='emale.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/javascript"> var $SCRIPT_ROOT = "54.218.130.132:8000" </script>
+
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="{{ url_for('static', filename='emale.js') }}"></script>
+
+    <div class="links">
+      <h1 id='login'> SurfMail Inbox </h1>
+      <nav class = "bar">
+	<ul id = "ab">
+	  <li><a href='/login'> Login Page </a></li>
+	  <li><a href='/create'> Create Page </a></li>
+	  <li><a href='/compose'> Compose Email </a></li>
+	</ul>
+      </nav>
+    </div>
+    <h1 class='headd'>Welcome {{ userid }}</h1>
+    <br>
+    <table class='split'>
+      <td class='inbox'>   Inbox </td>
+      <td class='sent'> Sent Mail  </td>
+    </table>
+    <div class='left'>
+      <div class='table-responsive'>
+	<br>
+	<br>
+	<form id="ajax_form">
+	<table class="table" id="ajax_table1">
+	  <thead>
+	    <tr>
+
+	      <th>Message From</th>
+	      <th>Subject</th>
+	      <th>Message</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  </tbody>
+	</table>
+      </div>
+    </div>
+
+    <div class='right'>
+      <div class='table-responsive'>
+	<br>
+	<br>
+	<table class="table" id="ajax_table2">
+	  <thead>
+	    <tr>
+
+	      <th>Sent To</th>
+	      <th>Subject</th>
+	      <th>Message</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  </tbody>
+	</table>
+      </div>
+    </div>
+    </form>
+  </body>
+</html>

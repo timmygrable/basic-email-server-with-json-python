@@ -1,0 +1,167 @@
+html {
+    width: 1280px;
+}
+
+
+
+
+#login {
+    text-align: center;
+    height:50px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #53198C;
+    color: white;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+ul#ab {
+    margin: 2px -15px;
+    font-size: 15px;
+    text-align-last: center;
+    padding-top: 17px;
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+
+}
+
+ul#ab li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+
+}
+
+
+
+.bar {
+    height:50px;
+    width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #53188C;
+}
+
+.links {
+    width: 100%;
+    background-color: #53188C;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #53188C;
+    font-size: 16pt;
+}
+
+input[type=submit] {
+    background-color: #53188C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 600px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.split {
+    color: #53188C;
+    float: left;
+    width: 100%;
+    height: 50px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px 0 #53198C;
+    font-size: 16pt;
+}
+.inbox {
+    text-align: center;
+    width: 50%;
+}
+.sent {
+    text-align: center;
+}
+.headd {
+    color: #53198C;
+    text-align: center;
+
+}
+
+button[type=button] {
+    background-color: #53188C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+button[type=button]:hover {
+    background-color: #45a049;
+}
+.left {
+    width: 50%;
+    float: left;
+
+}
+.right {
+    width: 50%;
+    float: right;
+
+}
+.message {
+    width: 45%;
+    word-wrap: break-word;
+    max-width: 5px;
+}
+.select {
+    width: 5%;
+    word-wrap: break-word;
+    max-width: 5px;
+}
+.sender {
+    width: 20%;
+    word-wrap: break-word;
+    max-width: 5px;
+}
+.subject {
+    width: 25%;
+    word-wrap: break-word;
+    max-width: 5px;
+}
+
+.ajax_table1 {
+    border-left: 2px solid black;
+}
+
+.ajax_table2 {
+    border-left: 2px solid black;
+}

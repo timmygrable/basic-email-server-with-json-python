@@ -1,0 +1,126 @@
+html {
+    width: 1280px;
+}
+
+
+
+a:visited {
+    text-decoration: none;
+    color: white;
+    decoration: none;
+}
+
+#login {
+    text-align: center;
+    height:50px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #53188C;
+    color: white;
+
+}
+
+
+.hello {
+    text-align: center;
+    color: #55198B;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+ul#ab {
+    margin: 2px -15px;
+    font-size: 15px;
+    text-align-last: center;
+    padding-top: 17px;
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+
+}
+
+ul#ab li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+
+}
+
+
+
+.bar {
+    height:50px;
+    width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #53188C;
+}
+
+.links {
+    width: 100%;
+    background-color: #53188C;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.compose {
+    width: 100%;
+
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #53188C;
+    font-size: 16pt;
+}
+
+input[type=submit] {
+    background-color: #53188C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 600px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+.leftside {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.rightside {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

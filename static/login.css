@@ -1,0 +1,45 @@
+html {
+    width: 1280px;
+}
+.headd {
+    text-align: center;
+    color:#53188C;
+}
+
+.one {
+    color:#53188C;
+    text-align: center;
+    font-size: 16pt;
+
+}
+
+.box {
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px 0 #53188C;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 0 5px;
+}
+.in {
+    height: 30px;
+    width:200px;
+}
+
+
+input[type=submit] {
+    background-color: #53188C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+

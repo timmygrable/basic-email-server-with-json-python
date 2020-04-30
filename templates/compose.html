@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="{{url_for('static',filename='compose.css')}}" rel=stylesheet type="text/css">
+  </head>
+  <body>
+    <div class="links">
+      <h1 id='login'> SurfMail Inbox </h1>
+      <nav class = "bar">
+	<ul id = "ab">
+	  <li><a href='/login'> Login Page </a></li>
+	  <li><a href='/create'> Create Page </a></li>
+	  <li><a href='/compose'> Compose Email </a></li>
+	</ul>
+      </nav>
+    </div>
+    <br>
+    <h1 class='hello'> Compose Email Page </h1>
+    <div class="row">
+      <div class="leftside">
+	<form id="form" method="post" action="/compose">
+	  <label for="sentto">Send To:</label>
+      </div>
+      <div class="rightside">
+	<select id="sentto" name="sentto">
+	  {% for user in userids %}
+	  <option value="{{user}}">{{user}}@surfmail.com</option>
+	  {% endfor %}
+	</select>
+
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="leftside">
+	<label for="subject">Subject:</label>
+      </div>
+      <div class="rightside">
+	<input type="text" id="subject" name="subject" placeholder="Subject of Email...">
+      </div>
+
+    </div>
+    <div class="row">
+
+      <div class="leftside">
+	<label for="subject">Email Contents:</label>
+      </div>
+      <div class="rightside">
+	<textarea id="contents" name="message" placeholder="Compose Email..." style="height:200px"></textarea>
+      </div>
+
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit" action='/compose'>
+    </div>
+    </form>
+
+
+  </body>
+</html>
+
+
