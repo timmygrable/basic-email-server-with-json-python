@@ -1,1 +1,1 @@
-# basic-email-server-with-json-python
+Basic Email Server Using Python and JSON
